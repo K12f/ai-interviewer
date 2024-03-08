@@ -11,5 +11,7 @@ aigc for 面试官
 
 - 本地开发时，需要将application-prod.yml复制为application-dev.yml并设置自己的redis和openai相关配置
 
-### ai
-- 
+### api
+
+- 上传简历
+- ws://127.0.0.1:11001/resume/chat/{返回的简历uuid}
