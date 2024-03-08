@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: ai-interview
+  profiles:
+    active: ${profile:dev}
+  servlet:
+    multipart:
+      max-file-size: 1000MB
+      max-request-size: 1000MB
+  mvc:
+    format:
+      date: yyyy-MM-dd HH:mm:ss
+      date-time: yyyy-MM-dd HH:mm:ss
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: Asia/Shanghai
+knife4j:
+  basic:
+    enable: true
